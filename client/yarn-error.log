@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\calpr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\RailsInstaller\Ruby2.3.3\bin;C:\Ruby27-x64\bin;C:\Ruby30-x64\bin;C:\Users\calpr\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\calpr\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\calpr\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\flutter\bin;;C:\Users\calpr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\calpr\AppData\Roaming\TinyTeX\bin\win32;C:\Users\calpr\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Projects\node-react-app\package.json: Unexpected token < in JSON at position 350
+      at JSON.parse (<anonymous>)
+      at C:\Users\calpr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\calpr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\calpr\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "proxy": "http://localhost:5000/",
+    "name": "node-react-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.0.0",
+      "@material-ui/icons": "^4.0.0",
+      "@material-ui/lab": "^4.0.0-alpha.13",
+      "@material-ui/styles": "^4.0.0",
+      "@material/ripple": "^4.0.0",
+      "install": "^0.12.2",
+      "mathjs": "^11.5.0",
+      "node-fetch": "^2.6.1",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-gsap": "^3.2.1",
+      "react-hot-loader": "^4.12.19",
+      "react-redux": "^7.1.0",
+      "react-router-dom": "^5.0.1",
+      "react-scripts": "^5.0.1",
+      "react-with-firebase-auth": "^1.0.3",
+      "recompose": "^0.17.0",
+      "typeface-roboto": "^0.0.54",
+      "uuid": "^8.3.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "jest",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@babel/preset-env": "^7.20.2",
+      "@babel/preset-react": "^7.18.6",
+      "@testing-library/react": "^12.1.2",
+      "babel-jest": "^24.9.0",
+      "jest": "^24.9.0",
+      "react-dom": "^16.8.6",
+      "react-test-renderer": "^16.8.6",
+      "ts-jest": "^29.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,82 @@
+{
+  "proxy": "http://localhost:5000/",
+  "name": "node-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@material-ui/core": "^4.0.0",
+    "@material-ui/icons": "^4.0.0",
+    "@material-ui/lab": "^4.0.0-alpha.13",
+    "@material-ui/styles": "^4.0.0",
+    "@material/ripple": "^4.0.0",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@react-pdf/renderer": "^3.1.9",
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "docx": "^8.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.7",
+    "firebase": "^9.17.1",
+    "install": "^0.12.2",
+    "jquery": "^3.6.3",
+    "mathjs": "^11.5.0",
+    "node-fetch": "^2.6.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-gsap": "^3.2.1",
+    "react-hot-loader": "^4.12.19",
+    "react-mic": "^12.4.6",
+    "react-query": "^3.39.3",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^5.0.1",
+    "react-with-firebase-auth": "^1.0.3",
+    "recompose": "^0.17.0",
+    "typeface-roboto": "^0.0.54",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/cypress": "^9.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^24.9.0",
+    "cypress": "^10.11.0",
+    "jest": "^24.9.0",
+    "jest-transform-stub": "^2.0.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "ts-jest": "^29.0.5"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
