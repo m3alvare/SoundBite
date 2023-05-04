@@ -467,7 +467,7 @@ app.post('/api/GetUserID', (req, res) => {
 const { Configuration, OpenAIApi } = require("openai");
 // require('dotenv').config();
 
-const token = "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"//process.env.REACT_APP_API_TOKEN;
+const token = "INSERT OPEN AI KEY HERE"//process.env.REACT_APP_API_TOKEN;
 const configuration = new Configuration({apiKey: token});
 const openai = new OpenAIApi(configuration);
 

@@ -3,3 +3,6 @@ SoundBite is a platform where users can upload audio and video files to be conve
 
 **Installation Requirements:**
 Run *npm install --legacy-peer-deps* in server and client. Our package.json file will install all of the necessary requirements.yay
+
+**OpenAI API & google cloud keys**
+create a "google-cloud-key.json" file in the root directory with your google cloud key. In "server.js" on line 470 insert your Open AI api key
